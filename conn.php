@@ -1,10 +1,15 @@
 <?php
-//Êý¾Ý¿âÁ´½ÓÎÄ¼þ
-$host='localhost';//Êý¾Ý¿â·þÎñÆ÷
-$user='root';//Êý¾Ý¿âÓÃ»§Ãû
-$password='root';//Êý¾Ý¿âÃÜÂë
-$database='login';//Êý¾Ý¿âÃû
-$conn=@mysql_connect($host,$user,$password) or die('Êý¾Ý¿âÁ¬½ÓÊ§°Ü£¡');
-@mysql_select_db($database) or die('Ã»ÓÐÕÒµ½Êý¾Ý¿â£¡');
-mysql_query("set names 'gb2312'");
+/**
+ * Created by PhpStorm.
+ * User: wcw
+ * Date: 2017/10/18
+ * Time: 10:59
+ */
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'test_database';
+$conn=@mysql_connect($host,$user,$password) or die('æ•°æ®åº“é“¾æŽ¥å¤±è´¥');
+@mysql_select_db($database) or die('æ‰¾ä¸åˆ°æ•°æ®åº“!');
+mysql_query("set names 'utf8'");
 ?>

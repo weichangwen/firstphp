@@ -1,0 +1,5 @@
+php增删1 http://blog.csdn.net/u013682842/article/details/50523953
+
+php增删2 http://blog.csdn.net/vip_linux/article/details/19188709
+
+php输出到控制台 http://www.cnblogs.com/yiven/articles/6126586.html
